@@ -5,8 +5,14 @@
   box-sizing: border-box;
 }
 
+
 html {
   font-family: "Lucida Sans", sans-serif;
+}
+.logo {
+  display: flex;
+  max-width: 100px;
+  height: auto;
 }
 
 .centrar-imagen {
@@ -22,7 +28,7 @@ img {
 }
  /* Estilo para las imágenes de productos */
  .card-img-fixed {
-  width: 60%; 
+  width: 55%; 
   height: auto; /* Permite que la altura se ajuste automáticamente */
 }
 .gallery a img {
@@ -52,15 +58,14 @@ h2 {
 }
 /* Estilos para el menú */
 .navbar {
-  background-color: #50093e4d; 
+  background-color: #750d19dc; 
 }
 
 .navbar-default .navbar-nav > li > a {
   color: rgb(230, 235, 230); 
 }
-
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #555; 
+  background-color: #750d19dc; 
 }
 
 /* Estilos para el contenido principal */
@@ -122,23 +127,21 @@ p {
   transform: scale(1.05); /* Agranda las tarjetas en el hover */
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.272); /* Agrega una sombra en hover */
 }
-
 .navbar {
-  background-color: #85487f93; /* Cambia el color de fondo de la barra de navegación */
+  background-color: #750d19dc; /* Cambia el color de fondo de la barra de navegación */
   margin-bottom: 20px;
 }
 
 .navbar-default .navbar-nav > li > a {
   color: white; /* Cambia el color del texto del menú a blanco */
 }
-
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #391430d3; /* Cambia el color de fondo en hover */
+  background-color: #750d19dc; /* Cambia el color de fondo en hover */
   color: #fff; /* Cambia el color del texto en hover */
 }
 .header h1 {
   text-align: center;
-  background-color: #85487f93;
+  background-color: #750d19dc;
   color: white;
   padding: 40px;
   margin-bottom: 20px;
@@ -154,7 +157,7 @@ p {
   height: auto;
 }
 .footer {
-  background-color: #85487f93;
+  background-color: #750d19dc;
   color: rgba(248, 246, 246, 0.882);
   text-align: center;
   font-size: 16px;
@@ -175,17 +178,16 @@ p {
 }
 /* Estilos para la cabecera */
 .header {
-  background-color: #96569a9d;
+  background-color: #750d19dc;
   color: #060101ec;
   text-align: center;
   padding: 20px 0;
 }
 
 .header h1 {
-  font-size: 45px;
+  font-size: 55px;
   margin: 0;
-  color: rgba(0, 0, 0, 0.735);
-  background-image: url(https://conocedores.com/wp-content/uploads/2020/07/mejores-bodegas-mundo-zuccardi-19072020.jpg);
+  color: rgb(237, 234, 234);
 }
 
 /* Estilos para la tarjeta principal */
@@ -205,7 +207,7 @@ p {
 
 /* Estilos para el footer */
 .footer {
-  background-color: #333;
+  background-color: #750d19dc;
   color: #fff;
   text-align: center;
   padding: 10px 0;
